@@ -1,1 +1,117 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111114">
+  <meta name="description" content="FF Comic Studio — Crie suas próprias HQs.">
+  <title>FF Comic Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">FF</span>
+      <div>
+        <h1>COMIC STUDIO</h1>
+        <small>CREATIVE WORKSPACE</small>
+      </div>
+    </div>
+
+    <button class="menu-button" id="menuButton" aria-label="Abrir menu">
+      ☰
+    </button>
+  </header>
+
+  <main class="workspace">
+
+    <section class="welcome">
+      <span class="eyebrow">DARK STUDIO / 001</span>
+      <h2>Seu universo.<br><span>Suas histórias.</span></h2>
+      <p>Crie, organize e transforme suas ideias em HQs.</p>
+    </section>
+
+    <section class="project-section">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">WORKSPACE</span>
+          <h2>Meu projeto</h2>
+        </div>
+        <span class="status">● STUDIO ONLINE</span>
+      </div>
+
+      <div class="project-card">
+        <div class="project-preview">
+          <span>FF</span>
+          <small>FORA DE CONTROLE!</small>
+        </div>
+
+        <div class="project-info">
+          <h3>FF — Fora de Controle!</h3>
+          <p>Projeto de histórias em quadrinhos</p>
+          <button id="openProject">ABRIR PROJETO ↗</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools-section">
+      <span class="eyebrow">CREATION TOOLS</span>
+      <h2>Área de criação</h2>
+
+      <div class="tool-grid">
+        <button class="tool-card" data-tool="characters">
+          <span>♟</span>
+          <strong>Personagens</strong>
+          <small>Biblioteca de elenco</small>
+        </button>
+
+        <button class="tool-card" data-tool="scenes">
+          <span>▧</span>
+          <strong>Cenários</strong>
+          <small>Fundos e ambientes</small>
+        </button>
+
+        <button class="tool-card" data-tool="pages">
+          <span>▤</span>
+          <strong>Páginas</strong>
+          <small>Montagem de HQs</small>
+        </button>
+
+        <button class="tool-card" data-tool="export">
+          <span>⇧</span>
+          <strong>Exportação</strong>
+          <small>Suas páginas em PNG</small>
+        </button>
+      </div>
+    </section>
+
+    <section class="editor-section" id="editor">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">COMIC EDITOR</span>
+          <h2>Editor de HQ</h2>
+        </div>
+        <span class="editor-tag">BETA 0.1</span>
+      </div>
+
+      <div class="editor-placeholder">
+        <div class="placeholder-icon">▧</div>
+        <h3>Seu próximo quadrinho começa aqui.</h3>
+        <p>O espaço de edição será desenvolvido nas próximas etapas.</p>
+        <button id="startCreating">COMEÇAR A CRIAR</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>FF COMIC STUDIO</span>
+    <span>UNOFFICIAL FAN PROJECT</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+  
